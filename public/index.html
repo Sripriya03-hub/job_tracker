@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <div>
+            <h1>Job Tracker</h1>
+            <p class="subtitle">Track your applications smartly</p>
+        </div>
+    </div>
+
+    <div class="stats-bar">
+        <div class="stat-card">
+            <span class="stat-number" id="totalJobs">0</span>
+            <span class="stat-label">Total Applied</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number" id="totalInterview">0</span>
+            <span class="stat-label">Interviews</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number" id="totalAccepted">0</span>
+            <span class="stat-label">Accepted</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number" id="totalRejected">0</span>
+            <span class="stat-label">Rejected</span>
+        </div>
+    </div>
+
+    <div class="main-content">
+
+        <div class="top-section">
+
+            <!-- LEFT — Quick Tips -->
+            <div class="side-panel">
+                <h3 class="panel-title">💡 Quick Tips</h3>
+                <ul class="tips-list">
+                    <li>Apply early in the morning for best visibility</li>
+                    <li>Tailor your resume for each role</li>
+                    <li>Follow up after 1 week of no response</li>
+                    <li>Connect with employees on LinkedIn before applying</li>
+                    <li>Research the company culture before interviews</li>
+                    <li>Keep your GitHub updated with recent projects</li>
+                    <li>Apply to 10-15 roles per week consistently</li>
+                </ul>
+            </div>
+
+            <!-- CENTER — Form -->
+            <div class="form-container">
+                <h2 class="form-title">Add New Application</h2>
+                <form id="jobForm">
+                    <div class="form-row">
+                        <input type="text" id="company" placeholder="Company Name">
+                        <input type="text" id="title" placeholder="Job Title">
+                    </div>
+                    <div class="form-row">
+                        <select id="status">
+                            <option value="Applied">Applied</option>
+                            <option value="Interview">Interview</option>
+                            <option value="Rejected">Rejected</option>
+                            <option value="Accepted">Accepted</option>
+                        </select>
+                        <input type="date" id="date">
+                    </div>
+                    <input type="hidden" id="editId">
+                    <button type="submit">+ Add Application</button>
+                </form>
+            </div>
+
+            <!-- RIGHT — Quote of the Day -->
+            <div class="side-panel quote-panel">
+                <h3 class="panel-title">🌟 Quote of the Day</h3>
+                <div class="quote-box">
+                    <p class="quote-text" id="quoteText">"Loading inspiration..."</p>
+                    <p class="quote-author" id="quoteAuthor"></p>
+                </div>
+                <div class="quote-dots" id="quoteDots"></div>
+            </div>
+
+        </div>
+
+        <div class="jobs-section">
+            <div class="table-header">
+                <span>Company</span>
+                <span>Job Title</span>
+                <span>Status</span>
+                <span>Date Applied</span>
+                <span>Actions</span>
+            </div>
+            <div id="jobList"></div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

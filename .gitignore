@@ -1,0 +1,16 @@
+# Ignore all the node module we can install them using npm install 
+node_modules/
+
+#Environmental Variables can be ignored 
+.env 
+
+#Ignore all the log files 
+*.log
+npm-debug.log*
+
+# Ignore all the OS files 
+.DB_Store 
+Thumbs.db
+
+#Ignore all the docker ignored files 
+.dockerignore 
