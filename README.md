@@ -50,15 +50,19 @@ A full stack job tracking application with AI integration, built to help job see
 
 ### Dashboard Overview
 
+<img width="1904" height="863" alt="Screenshot 2026-04-09 124341" src="https://github.com/user-attachments/assets/14a8ead0-1178-4db5-80fd-8d51e5e188e8" />
 
 ### Stats Bar
 
+<img width="1903" height="204" alt="Screenshot 2026-04-09 124355" src="https://github.com/user-attachments/assets/64cffbce-9e3a-496d-bb17-de6a0f0011bc" />
 
 ### Application List
 
+<img width="1892" height="337" alt="Screenshot 2026-04-09 124414" src="https://github.com/user-attachments/assets/67a6071d-4daa-4c5c-b626-8e23d53469c8" />
 
 ### AI Job Advisor
 
+<img width="1879" height="432" alt="Screenshot 2026-04-09 124432" src="https://github.com/user-attachments/assets/14e9a8aa-4c0f-4962-b25b-46dcd31db2ce" />
 ---
 
 
